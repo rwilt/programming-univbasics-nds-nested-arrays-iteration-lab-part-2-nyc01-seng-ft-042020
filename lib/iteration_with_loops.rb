@@ -26,16 +26,16 @@ def find_min_in_nested_arrays(src)
   src_index = 0
   while src_index < src.length do
   src_element_index = 0
-  
+
   while src_element_index < src[src_index].length do
     min_val = src[src_index][element_index][0]
     if src[src_index][element_index] < min_val
     min_val = src[src_index][element_index]
     new_arr.push(minVal)
-  end 
+  end
   src_element_index += 1
 end
-src_index += 1 
+src_index += 1
 end
 new_arr
 
